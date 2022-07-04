@@ -2,7 +2,7 @@
 	"promptVSCodeSettings": true,
 	"geolocation": {
 		"data": {
-			"city": "SÃ£o Paulo",
+			"city": "Sao Paulo",
 			"country": {
 				"code": "BR",
 				"name": "Brazil"
@@ -12,6 +12,7 @@
 				"name": "Sao Paulo"
 			}
 		},
-		"timestamp": 1655842704970
-	}
+		"timestamp": 1656960196445
+	},
+	"siteId": "14611e68-e5ba-4bda-b25c-24e3223bcf1a"
 }

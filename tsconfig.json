@@ -1,0 +1,8 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "types": [
+        "node_modules/@types"
+      ],
+    }
+  }
