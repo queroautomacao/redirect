@@ -8,7 +8,7 @@ export default async (request: Request, context: Context) => {
   
 	if(result === false && path !== "") {
 
-		const API_ENDPOINT = Deno.env.get("WEBHOOK_URL") + path;
+		const API_ENDPOINT = Deno.env.get("WEBHOOK_URL") + '/?redirect=' + path;
 		const response = await fetch(API_ENDPOINT);
         const data = await response.json();
 		const link = data.link;
