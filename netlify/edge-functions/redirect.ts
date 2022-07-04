@@ -1,4 +1,5 @@
 import { Context } from "netlify:edge";
+import process from "process";
 
 export default async (request: Request, context: Context) => {
 
