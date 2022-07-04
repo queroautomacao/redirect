@@ -8,7 +8,7 @@ export default async (request: Request, context: Context) => {
   
 	if(result === false && path !== "") {
 
-		const API_ENDPOINT = 'https://sys.vinibot.io/webhook/f2d588b0-133b-4493-a43b-84c9adb6d885?redirect=' + path;
+		const API_ENDPOINT = process.env.WEBHOOK_URL + path;
 		const response = await fetch(API_ENDPOINT);
         const data = await response.json();
 		const link = data.link;
